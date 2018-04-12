@@ -1,0 +1,108 @@
+{
+  "assetsByChunkName": {
+    "path---post-two": [
+      "path---post-two-b0833afcd6f286ca05c4.js",
+      "path---post-two-b0833afcd6f286ca05c4.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---lesson-one": [
+      "path---lesson-one-3f78b5440b8b75cfa468.js",
+      "path---lesson-one-3f78b5440b8b75cfa468.js.map"
+    ],
+    "path---lesson-four": [
+      "path---lesson-four-8b258f29bc250c523a71.js",
+      "path---lesson-four-8b258f29bc250c523a71.js.map"
+    ],
+    "path---biz-one": [
+      "path---biz-one-9c62171e96595d280ccf.js",
+      "path---biz-one-9c62171e96595d280ccf.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-281ec6d7528438253116.js",
+      "component---src-layouts-index-jsx-281ec6d7528438253116.js.map"
+    ],
+    "path---categories-tech": [
+      "path---categories-tech-44fb4d86b325b955cebd.js",
+      "path---categories-tech-44fb4d86b325b955cebd.js.map"
+    ],
+    "path---lesson-five": [
+      "path---lesson-five-695b755c54525ab0aad4.js",
+      "path---lesson-five-695b755c54525ab0aad4.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---biz-two": [
+      "path---biz-two-73068f19d36ce76384b2.js",
+      "path---biz-two-73068f19d36ce76384b2.js.map"
+    ],
+    "component---src-templates-lesson-jsx": [
+      "component---src-templates-lesson-jsx-ff14081843f7192fde06.js",
+      "component---src-templates-lesson-jsx-ff14081843f7192fde06.js.map"
+    ],
+    "path---categories-biz": [
+      "path---categories-biz-28476195a87ca5a5a654.js",
+      "path---categories-biz-28476195a87ca5a5a654.js.map"
+    ],
+    "path---lesson-two": [
+      "path---lesson-two-4451c493cd663a0ca137.js",
+      "path---lesson-two-4451c493cd663a0ca137.js.map"
+    ],
+    "component---src-templates-category-jsx": [
+      "component---src-templates-category-jsx-4763f67f2565af8b8b58.js",
+      "component---src-templates-category-jsx-4763f67f2565af8b8b58.js.map"
+    ],
+    "path---index": [
+      "path---index-f4bb4f1ea79e6aedd94f.js",
+      "path---index-f4bb4f1ea79e6aedd94f.js.map"
+    ],
+    "component---src-pages-about-jsx": [
+      "component---src-pages-about-jsx-2fb600cdf69eacefbf76.js",
+      "component---src-pages-about-jsx-2fb600cdf69eacefbf76.js.map"
+    ],
+    "path---post-one": [
+      "path---post-one-d598fb4620526101b08b.js",
+      "path---post-one-d598fb4620526101b08b.js.map"
+    ],
+    "path---lesson-six": [
+      "path---lesson-six-db05fc51222edde75b91.js",
+      "path---lesson-six-db05fc51222edde75b91.js.map"
+    ],
+    "commons": [
+      "commons-62275a4d901a5a5e79fe.js",
+      "build-js-styles.css",
+      "commons-62275a4d901a5a5e79fe.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---lesson-three": [
+      "path---lesson-three-e43145848fe16d72832e.js",
+      "path---lesson-three-e43145848fe16d72832e.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-post-jsx": [
+      "component---src-templates-post-jsx-2c8e86b634dcc1be9d07.js",
+      "component---src-templates-post-jsx-2c8e86b634dcc1be9d07.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-45bc47011e55e3cf2779.js",
+      "component---src-pages-index-jsx-45bc47011e55e3cf2779.js.map"
+    ],
+    "app": [
+      "app-6162946202e7c6ccb139.js",
+      "build-js-styles.css",
+      "app-6162946202e7c6ccb139.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
