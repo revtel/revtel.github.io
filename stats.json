@@ -45,20 +45,20 @@
       "component---src-templates-lesson-jsx-ff14081843f7192fde06.js.map"
     ],
     "path---categories-biz": [
-      "path---categories-biz-28476195a87ca5a5a654.js",
-      "path---categories-biz-28476195a87ca5a5a654.js.map"
+      "path---categories-biz-e0b41493f78a8dd05efe.js",
+      "path---categories-biz-e0b41493f78a8dd05efe.js.map"
     ],
     "path---lesson-two": [
       "path---lesson-two-4451c493cd663a0ca137.js",
       "path---lesson-two-4451c493cd663a0ca137.js.map"
     ],
     "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-4763f67f2565af8b8b58.js",
-      "component---src-templates-category-jsx-4763f67f2565af8b8b58.js.map"
+      "component---src-templates-category-jsx-d49afdccf0e73383dc9e.js",
+      "component---src-templates-category-jsx-d49afdccf0e73383dc9e.js.map"
     ],
     "path---index": [
-      "path---index-f4bb4f1ea79e6aedd94f.js",
-      "path---index-f4bb4f1ea79e6aedd94f.js.map"
+      "path---index-d0807f71bdbc5ca48a8d.js",
+      "path---index-d0807f71bdbc5ca48a8d.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-2fb600cdf69eacefbf76.js",
@@ -73,9 +73,9 @@
       "path---lesson-six-db05fc51222edde75b91.js.map"
     ],
     "commons": [
-      "commons-62275a4d901a5a5e79fe.js",
+      "commons-0778f22dd00590f9d109.js",
       "build-js-styles.css",
-      "commons-62275a4d901a5a5e79fe.js.map",
+      "commons-0778f22dd00590f9d109.js.map",
       "build-js-styles.css.map"
     ],
     "path---lesson-three": [
@@ -87,17 +87,17 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-2c8e86b634dcc1be9d07.js",
-      "component---src-templates-post-jsx-2c8e86b634dcc1be9d07.js.map"
+      "component---src-templates-post-jsx-60452a776a765683db5c.js",
+      "component---src-templates-post-jsx-60452a776a765683db5c.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-45bc47011e55e3cf2779.js",
-      "component---src-pages-index-jsx-45bc47011e55e3cf2779.js.map"
+      "component---src-pages-index-jsx-e400a0d9d3af9795c149.js",
+      "component---src-pages-index-jsx-e400a0d9d3af9795c149.js.map"
     ],
     "app": [
-      "app-6162946202e7c6ccb139.js",
+      "app-1bae9fff5e82260ff1e5.js",
       "build-js-styles.css",
-      "app-6162946202e7c6ccb139.js.map",
+      "app-1bae9fff5e82260ff1e5.js.map",
       "build-js-styles.css.map"
     ],
     "path---about": [
