@@ -1,0 +1,2 @@
+webpackJsonp([0x6731bafd5a98],{389:function(t,e){t.exports={data:{markdownRemark:{html:"<p>It's a test!!!</p>",timeToRead:1,excerpt:"It's a test!!!",frontmatter:{title:"Post three",cover:null,date:"2018-04-18T10:59:06+08:00",category:"tech",tags:null},fields:{slug:"/post-three"}}},pathContext:{slug:"/post-three"}}}});
+//# sourceMappingURL=path---post-three-d57f5750e1a02e58df3b.js.map
