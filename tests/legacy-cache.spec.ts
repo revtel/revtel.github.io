@@ -58,7 +58,7 @@ test('returning browsers retire the root worker without clearing project caches 
       await (await caches.open('other-project-cache')).put('/project-data', new Response('preserve me'));
     });
     await expect.poll(() => page.evaluate(() => !!navigator.serviceWorker.controller)).toBe(true);
-    await page.reload();
+    await page.goto(`${origin}/`);
     await expect(page.locator('h1')).toHaveText('Legacy cached page');
 
     const oldEnglishPage = await context.newPage();
@@ -71,7 +71,9 @@ test('returning browsers retire the root worker without clearing project caches 
 
     upgraded = true;
     await page.evaluate(() => { navigator.serviceWorker.getRegistration('/').then((registration) => registration?.update()); });
-    await expect(page.locator('h1')).toHaveText('讓技術，連結更多可能。');
+    // After the cache upgrade, the new homepage also applies the browser's English preference.
+    await expect(page).toHaveURL(`${origin}/en/`);
+    await expect(page.locator('h1')).toHaveText('Stay curious.Build what’s next.');
     await expect(oldEnglishPage).toHaveURL(`${origin}/en/`);
     await expect(oldEnglishPage.locator('html')).toHaveAttribute('lang', 'en');
     await expect.poll(() => page.evaluate(async () => (await navigator.serviceWorker.getRegistrations()).length)).toBe(0);

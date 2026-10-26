@@ -5,7 +5,10 @@ export default class SiteDocument extends Document {
     const locale = this.props.__NEXT_DATA__.props.pageProps.locale === 'en' ? 'en' : 'zh-Hant';
     return (
       <Html lang={locale}>
-        <Head />
+        <Head>
+          {/* Choose the static locale before rendering the page to avoid a language flash. */}
+          <script src="/assets/locale.js" />
+        </Head>
         <body><Main /><NextScript /></body>
       </Html>
     );
