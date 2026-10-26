@@ -1,0 +1,3 @@
+build	Run npm run build	2026-10-26T12:08:28.4947509Z Static export ready in out/ (including localized 404 and GitHub Pages assets).
+build	Run npm test	2026-10-26T12:08:56.5232652Z   21 passed (10.2s)
+deploy	Deploy approved static export	2026-10-26T12:09:06.8775418Z Created deployment for 5ce3017b22a343d2b115bab4ce811a064362bd34, ID: 5ce3017b22a343d2b115bab4ce811a064362bd34

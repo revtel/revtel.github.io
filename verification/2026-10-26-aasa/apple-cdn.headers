@@ -1,0 +1,17 @@
+HTTP 200
+Server: AppleHttpServer/7b3d349ae60c243cdd677edbde3e93e460f75820
+Date: Mon, 26 Oct 2026 12:09:42 GMT
+Content-Type: application/json
+Content-Length: 521
+Apple-From: https://revtel.github.io/.well-known/apple-app-site-association
+Apple-Origin-Format: json
+Cache-Control: max-age=3600,public
+Vary: Accept-Encoding
+X-B3-TraceId: cd1c0fc19d9a5d25
+Strict-Transport-Security: max-age=31536000
+Age: 73
+Via: http/1.1 jptyo12-3p-pac-012.ts.apple.com (acdn/25.17695), https/1.1 jptyo12-3p-pfe-001.ts.apple.com (acdn/25.17695), https/1.1 innda3-edge-mx-001.ts.apple.com (acdn/25.17695), https/1.1 innda3-edge-fx-001.ts.apple.com (acdn/25.17695)
+X-Cache: hit-fresh, miss, miss, miss
+CDNUUID: 946c7d1c-1f25-4143-83ad-bae85bdd3240-184253776
+Connection: close
+

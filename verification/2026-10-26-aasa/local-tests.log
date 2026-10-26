@@ -1,0 +1,40 @@
+
+> revtel-website@1.0.0 test
+> playwright test
+
+[WebServer] (node:98484) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 21 tests using 4 workers
+
+(node:98488) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98487) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98490) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98489) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 tests/association.spec.ts:4:5 › export serves the exact NFC Rewriter association without a redirect (35ms)
+  ✓   2 tests/locale.spec.ts:10:7 › zh-TW: browser preference selects zh-Hant from either homepage (693ms)
+  ✓   1 tests/locale.spec.ts:10:7 › zh-CN: browser preference selects zh-Hant from either homepage (704ms)
+  ✓   5 tests/locale.spec.ts:10:7 › zh-HK: browser preference selects zh-Hant from either homepage (710ms)
+  ✓   6 tests/locale.spec.ts:10:7 › en-US: browser preference selects en from either homepage (242ms)
+  ✓   7 tests/locale.spec.ts:10:7 › ja-JP: browser preference selects en from either homepage (245ms)
+  ✓   9 tests/locale.spec.ts:47:5 › first preferred browser language takes priority over secondary languages (154ms)
+  ✓  11 tests/locale.spec.ts:75:5 › invalid saved preferences fall back to browser detection (121ms)
+  ✓  12 tests/locale.spec.ts:82:5 › unknown paths keep their 404 instead of redirecting to a homepage (98ms)
+  ✓  13 tests/static-site.spec.ts:12:9 › zh-Hant › zh-Hant: full static content and metadata without JavaScript (175ms)
+  ✓   3 tests/legacy-cache.spec.ts:7:5 › returning browsers retire the root worker without clearing project caches or reloading project tabs (2.2s)
+  ✓   8 tests/locale.spec.ts:27:5 › manual selection overrides browser language and survives reloads and new tabs (1.6s)
+  ✓  16 tests/static-site.spec.ts:69:9 › zh-Hant › zh-Hant: localized error document and return link (199ms)
+  ✓  15 tests/static-site.spec.ts:49:9 › zh-Hant › zh-Hant: desktop and mobile layout and local assets (434ms)
+  ✓  17 tests/static-site.spec.ts:12:9 › en › en: full static content and metadata without JavaScript (264ms)
+  ✓  10 tests/locale.spec.ts:54:5 › automatic selection and manual switching work when local storage is blocked (2.2s)
+  ✓  19 tests/static-site.spec.ts:49:9 › en › en: desktop and mobile layout and local assets (369ms)
+  ✓  21 tests/static-site.spec.ts:83:5 › static hosting metadata and old service worker are included in the export (18ms)
+  ✓  20 tests/static-site.spec.ts:69:9 › en › en: localized error document and return link (204ms)
+  ✓  14 tests/static-site.spec.ts:30:9 › zh-Hant › zh-Hant: language switch preserves section and scripts hydrate cleanly (2.1s)
+  ✓  18 tests/static-site.spec.ts:30:9 › en › en: language switch preserves section and scripts hydrate cleanly (2.1s)
+
+  21 passed (6.2s)

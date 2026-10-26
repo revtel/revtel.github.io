@@ -1,0 +1,26 @@
+{
+  "source_commit": "5ce3017b22a343d2b115bab4ce811a064362bd34",
+  "previous_source_commit": "98c8c6cc57433d131b2de2f7fde365a03f1a5964",
+  "worktree_before": "clean",
+  "typecheck": "passed: npm run typecheck",
+  "build": "passed: npm run build",
+  "tests": "21 passed: npm test (6.2s)",
+  "source_and_export_sha256": "f85b7f5e12e4947c86fee387dcf1fad4812b67004b6478514d9a2b9a19fc183a",
+  "appID": "HE7MCCDHL4.com.revteltech.nfcopenrewriter",
+  "paths": [
+    "/react-native-nfc-rewriter/",
+    "/react-native-nfc-rewriter/index.html",
+    "/react-native-nfc-rewriter/zh-Hant/",
+    "/react-native-nfc-rewriter/zh-Hant/index.html",
+    "/react-native-nfc-rewriter/ja/",
+    "/react-native-nfc-rewriter/ja/index.html"
+  ],
+  "existing_associations": "No source AASA; both public root and .well-known endpoints returned 404 before deployment",
+  "swcutil": {
+    "status": "not_run_requires_root",
+    "attempt": "sudo -n /usr/bin/swcutil verify -d revtel.github.io -j public/.well-known/apple-app-site-association -u https://revtel.github.io/react-native-nfc-rewriter/",
+    "output": "sudo: a password is required"
+  },
+  "physical_iPhone": "not tested",
+  "background_NFC_issue_17": "not verified or closed"
+}
