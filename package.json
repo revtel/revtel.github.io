@@ -1,0 +1,25 @@
+{
+  "name": "revtel-website",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build && node scripts/finalize-export.mjs",
+    "typecheck": "next typegen && tsc --noEmit",
+    "preview": "node scripts/preview.mjs",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "next": "^16.4.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.0"
+  }
+}
