@@ -56,7 +56,17 @@ The featured projects are only React Native NFC Manager and NFC Rewriter. Manage
 
 The old sample posts, lessons, categories and archives have been removed, along with the obsolete Gatsby bundles, CMS, RSS and manifest. Original files remain recoverable from Git history at `6bf1151`. Old URLs can return 404; the new 404 page points visitors to the one-page home.
 
-The two existing project sites are external destinations. Do not create local directories named `react-native-nfc-manager` or `react-native-nfc-rewriter`, or modify their repos or app checkout. AASA, NFC device tests and Universal Links remain outside this site's scope.
+The two existing project sites are external destinations. Do not create local directories named `react-native-nfc-manager` or `react-native-nfc-rewriter`, or modify their repos or app checkout. This repository hosts the organization-domain AASA described below; NFC device tests and app changes remain separate.
+
+## iOS website association
+
+`public/.well-known/apple-app-site-association` is the extensionless JSON source for `https://revtel.github.io/.well-known/apple-app-site-association`. Next.js copies it to `out/.well-known/`; the existing Pages artifact workflow publishes that export. No extra root directory, Jekyll configuration, or runtime endpoint is needed.
+
+The association authorizes only `HE7MCCDHL4.com.revteltech.nfcopenrewriter` and the six exact promotion Home paths: `/react-native-nfc-rewriter/`, `/react-native-nfc-rewriter/index.html`, `/react-native-nfc-rewriter/zh-Hant/`, `/react-native-nfc-rewriter/zh-Hant/index.html`, `/react-native-nfc-rewriter/ja/`, and `/react-native-nfc-rewriter/ja/index.html`. There are no wildcards. Preserve other apps and services when editing this domain-wide file.
+
+The association test checks the exported bytes, JSON scope, and local response without following redirects. Local preview explicitly serves this file as JSON; that does **not** configure GitHub Pages response headers. After an authorized manual release, independently check the exact public URL for HTTP 200, no redirect, actual Content-Type, and matching JSON, then inspect `https://app-site-association.cdn-apple.com/a/v1/revtel.github.io`. Also check both organization homepages and the three promotion languages. Apple's [Universal Link diagnostics](https://developer.apple.com/documentation/technotes/tn3155-debugging-universal-links) cover `swcutil` validation and device association. Origin deployment, Apple CDN availability, and physical iPhone behavior are distinct checks; website success does not establish that background NFC issue #17 is resolved.
+
+To roll back this association, remove only this app's entry and redeploy through the same manual workflow, preserving other consumers and the website. Apple and device caches can retain previous data after a rollback.
 
 ## Community evidence
 

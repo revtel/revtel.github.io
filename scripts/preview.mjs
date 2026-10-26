@@ -43,7 +43,10 @@ createServer(async (request, response) => {
   }
   try {
     const body = await readFile(target);
-    response.writeHead(status, { 'Content-Type': mime[extname(target)] ?? 'application/octet-stream', 'Cache-Control': 'no-store' });
+    // Local AASA MIME only; public hosting headers require independent verification.
+    const contentType = pathname === '/.well-known/apple-app-site-association' && status === 200
+      ? 'application/json' : mime[extname(target)] ?? 'application/octet-stream';
+    response.writeHead(status, { 'Content-Type': contentType, 'Cache-Control': 'no-store' });
     response.end(request.method === 'HEAD' ? undefined : body);
   } catch { response.writeHead(500).end(); }
 }).listen(port, '127.0.0.1', () => console.log(`Static preview: http://127.0.0.1:${port}`));
